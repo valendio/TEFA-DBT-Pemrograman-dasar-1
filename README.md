@@ -7,18 +7,17 @@ Kelompok 6 TEFA <br>
 <br><br><br>
 
 <h1>Home Content </h1> <br>
-![home-page-navbar-and-content](https://user-images.githubusercontent.com/72658749/174424480-7e0deea8-26ab-4b35-873c-1ecd45940846.png) <br>
-![home-page-service](https://user-images.githubusercontent.com/72658749/174424488-042c3f21-8aed-4fb0-a35f-6c15552dd9af.png) <br>
-![home-page-data](https://user-images.githubusercontent.com/72658749/174424494-dd3d323a-e313-4ab8-8da0-e69d0113b5cf.png) <br>
-![home-page-bottom-info](https://user-images.githubusercontent.com/72658749/174424495-9f0cb31e-f1e9-4942-bf5f-43965c53f965.png) <br>
+![home-content](https://user-images.githubusercontent.com/72658749/174437513-5cffe854-9e70-40df-a7f8-6d8a2c0e34fb.png)<br>
+
 
 <br><br><br>
 
 <h1>Profile Content</h1> <br>
-![profile-top](https://user-images.githubusercontent.com/72658749/174424536-6e591d71-99b7-4faf-b557-6864969692a9.png) <br>
-![profile-bottom](https://user-images.githubusercontent.com/72658749/174424546-0688e631-a481-4e65-a5b6-350be1cc77c5.png) <br>
+![profile-content](https://user-images.githubusercontent.com/72658749/174437542-ee195778-c59c-4d8c-bb97-8d29b4057ea7.png)
+
 
 <br><br><br>
 
 <h1>Contact Content</h1> <br>
-![contact-form](https://user-images.githubusercontent.com/72658749/174424563-753ce60e-523d-42ff-b29a-e7f6117106ee.png) <br>
+![contact-content](https://user-images.githubusercontent.com/72658749/174437552-143ad127-8744-4b81-a252-73fe20690e6d.png)
+
