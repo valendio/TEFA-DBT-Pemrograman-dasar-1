@@ -61,30 +61,58 @@
               <div class="screen-body-item">
                 <div class="app-form">
                   <div class="app-form-group">
-                    <input class="app-form-control" placeholder="NAME" value="Kelompok 6 TEFA-Mlg">
+                    <input id="nama" class="app-form-control" placeholder="NAME" value="Kelompok 6 TEFA-Mlg">
                   </div>
                   <div class="app-form-group">
-                    <input class="app-form-control" placeholder="EMAIL">
+                    <input id="email" class="app-form-control" placeholder="EMAIL" required type="email">
                   </div>
                   <div class="app-form-group">
-                    <input class="app-form-control" placeholder="CONTACT NO">
+                    <input id="phone" class="app-form-control" placeholder="CONTACT NO" required type="number">
                   </div>
                   <div class="app-form-group message">
-                    <input class="app-form-control" placeholder="MESSAGE">
+                    <input id="msg" class="app-form-control" placeholder="MESSAGE" required type="text">
                   </div>
                   <div class="app-form-group buttons">
-                    <button class="app-form-button">CANCEL</button>
-                    <button class="app-form-button">SEND</button>
+                    <!-- <button class="app-form-button">CANCEL</button> -->
+                    <input class="app-form-button" type="button" value="cancel" onclick="reportError">
+                    <input class="app-form-button" type="button" value="send" onclick="printid()">
+                    <!-- <button class="app-form-button">SEND</button> -->
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
+          <br><br>
+
+          <p id="nameVal"></p>
+          <p id="emailName"></p>
+          <p id="phoneNum"></p>
+          <p id="msgVal"></p>
+
+          <div class="checkValidity">
+            <script>
+              function printid () {
+                var nameValue = document.getElementById("nama").value;
+                document.getElementById("nameVal").innerHTML=nameValue;
+
+                var emailValue = document.getElementById("email").value;
+                document.getElementById("emailName").innerHTML=emailValue;
+
+                var phoneValue = document.getElementById("phone").value;
+                document.getElementById("phoneNum").innerHTML=phoneValue;
+
+                var msgValue = document.getElementById("msg").value;
+                document.getElementById("msgVal").innerHTML=msgValue;
+
+              }
+            </script>
+          </div>
+
             <!-- Form DIbuat Oleh Krisantus Wanandi Dengan URL https://codepen.io/krisantuswanandi/pen/KxrgeZ -->
           </div>
         </div>
       </div>
-
+     
 </body>
 </html>
